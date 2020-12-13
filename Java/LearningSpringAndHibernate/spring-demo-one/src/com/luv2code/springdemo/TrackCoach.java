@@ -35,4 +35,15 @@ public class TrackCoach implements Coach {
 	public String getTeam() {
 		return team;
 	}
+	
+	
+	// add an initialise method
+	public void doMyStartUpStuff() {
+		System.out.println("TrackCoach: inside method doMyStartUpStuff");
+	}
+	
+	// add a destroy method
+	public void doMyCleanUpStuffYoYo() {
+		System.out.println("TrackCoach: inside method doMyCleanUpStuffYoYo");
+	}
 }

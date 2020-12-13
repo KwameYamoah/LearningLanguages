@@ -1,0 +1,10 @@
+package com.luv2code.springdemo;
+
+public class HappyFortuneService implements FortuneService{
+	@Override
+	public String getFortune() {
+		System.out.println ( (int)(Math.random()*(fortunes.length)));
+		return fortunes[0];
+	}
+	
+}

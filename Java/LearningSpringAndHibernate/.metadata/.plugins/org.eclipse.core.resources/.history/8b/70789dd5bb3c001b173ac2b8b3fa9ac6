@@ -1,8 +1,0 @@
-package com.luv2code.springdemo;
-
-public interface FortuneService {
-	String[] fortunes = new String[]{"Today is your lucky day", 
-			"Today you will achieve alot",
-			"Today is the day you will succeed"};
-	public String getFortune();
-}

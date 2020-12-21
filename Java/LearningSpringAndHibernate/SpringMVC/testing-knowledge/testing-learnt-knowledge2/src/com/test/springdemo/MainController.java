@@ -1,28 +1,36 @@
 package com.test.springdemo;
 
-import javax.servlet.http.HttpServletRequest;
+import javax.validation.Valid;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class MainController{
 	
 	@RequestMapping("/")
-	public String homePage() {
+	public String homePage(Model model) {
+		model.addAttribute("person", new Person());
 		return "home-page";
 	}
 	
+	
+	
 	@RequestMapping("/processForm")
-	public String processForm(HttpServletRequest request, Model model) {
+	public String processForm(@Valid @ModelAttribute("person") Person person, BindingResult theBindingResult) {	
 		
-		String name = request.getParameter("name").toUpperCase();
-		int age = Integer.parseInt(request.getParameter("age"));
+		if(theBindingResult.hasErrors()) {
+			System.out.println(theBindingResult);
+			return "home-page";
+		}
+		else {
+			return "student-confirmation";
+		}
 		
-		model.addAttribute("name",name);
-		model.addAttribute("age",age);
-		return "student-confirmation";
+		
 	}
 	
 	

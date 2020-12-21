@@ -1,30 +1,26 @@
 package com.test.springdemo;
 
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+
 import org.springframework.stereotype.Component;
 
 @Component
 public class Person {
-	private String name;
-	private int age;
+	
+	@NotNull(message="is required")
+	@Size(min=1,message="is required")
+	private String firstName;
 	
 	public Person() {
-		this.name = "Kwame";
-		this.age = 12;
+		
+	}
+	public String getFirstName() {
+		return firstName;
 	}
 
-	public String getName() {
-		return name;
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
 	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public int getAge() {
-		return age;
-	}
-
-	public void setAge(int age) {
-		this.age = age;
-	}
+	
 }

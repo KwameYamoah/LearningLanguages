@@ -5,7 +5,7 @@
 <title>Confirmation</title>
 </head>
 <body>
-	<p>Student ${name} has been accepted. </p>
+	<p>Student ${person.firstName} has been accepted. </p>
 
 </body>
 </html>

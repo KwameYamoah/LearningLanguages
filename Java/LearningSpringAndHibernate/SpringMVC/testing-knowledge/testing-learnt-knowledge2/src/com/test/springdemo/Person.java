@@ -1,15 +1,16 @@
 package com.test.springdemo;
 
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
+
+
 
 import org.springframework.stereotype.Component;
+
+import com.test.springdemo.validation.IsNotNull;
 
 @Component
 public class Person {
 	
-	@NotNull(message="is required")
-	@Size(min=1,message="is required")
+	@IsNotNull
 	private String firstName;
 	
 	public Person() {

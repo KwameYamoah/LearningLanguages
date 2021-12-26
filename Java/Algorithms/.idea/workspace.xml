@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Projects:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d2ceea33-4ff0-4a05-a89d-942b5087e686" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/PathFinding/AStarAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/PathFinding/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/PathFinding/DijkstraAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/PathFinding/Interface/UI_Frame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/PathFinding/Interface/UI_Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/PathFinding/SampleAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="QuickSortTest" />
+    </enabled-run-configurations>
+  </component>
+  <component name="ProjectId" id="1SD8FYQDOrdfMsL8PUb94DomwnT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566830413153" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Algorithms.Sorting" />
+      <recent name="Algorithms" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Algorithms.PathFinding" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Algorithms.Sorting" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.UI_Frame (1)">
+    <configuration name="UI_Frame (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.PathFinding.Interface.UI_Frame" />
+      <module name="Projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithms.PathFinding.Interface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UI_Frame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.Sorting.Interface.UI_Frame" />
+      <module name="Projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithms.Sorting.Interface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Algorithms.Sorting in Projects" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithms.Sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Algorithms.Sorting" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Algorithms.Sorting.Interface in Projects" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithms.Sorting.Interface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Algorithms.Sorting.Interface" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectionSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithms.Sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Algorithms.Sorting" />
+      <option name="MAIN_CLASS_NAME" value="Algorithms.Sorting.SelectionSortTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.UI_Frame (1)" />
+        <item itemvalue="Application.UI_Frame" />
+        <item itemvalue="JUnit.Algorithms.Sorting in Projects" />
+        <item itemvalue="JUnit.SelectionSortTest" />
+        <item itemvalue="JUnit.Algorithms.Sorting.Interface in Projects" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d2ceea33-4ff0-4a05-a89d-942b5087e686" name="Default Changelist" comment="" />
+      <created>1566764127631</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566764127631</updated>
+      <workItem from="1566764131236" duration="129000" />
+      <workItem from="1566771571956" duration="811000" />
+      <workItem from="1566774600303" duration="7817000" />
+      <workItem from="1566822193168" duration="426000" />
+      <workItem from="1566826174210" duration="1614000" />
+      <workItem from="1566828127377" duration="1569000" />
+    </task>
+    <task id="LOCAL-00001" summary="Completed Parenthesis checker&#10;Added Junit Testing">
+      <created>1571089183805</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571089183805</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added Sorting Package&#10;Added various sorting classes to Sorting Package">
+      <created>1571123093806</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571123093806</updated>
+    </task>
+    <task id="LOCAL-00003" summary="implemented BubbleSort,InsertionSort,MergeSort,SelectionSort&#10;and tests for them">
+      <created>1571247628146</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571247628146</updated>
+    </task>
+    <task id="LOCAL-00004" summary="implemented QuickSort&#10;And test for it">
+      <created>1571619841115</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571619841115</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Visualizer(UI) for Insertion,Selection and BubbleSort Implemented.&#10;Merge Sort and QuickSort left for later implementation due to difficulties pausing the recursive nature.&#10;UI menu is left to be implemented">
+      <created>1572393144165</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1572393144165</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Interface moved into correct directory.&#10;HeapSort was previously removed as it was for Tree structures and has a similar nature to selection sort">
+      <created>1572393299900</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1572393299900</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Simple UI created to select number of values and a sort to visualize.">
+      <created>1572433884221</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1572433884221</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Jar file to run">
+      <created>1572434174132</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1572434174132</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Project deadline passed, will re-visit later to polish and add more sorts">
+      <created>1572434352620</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1572434352620</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12366000" />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Completed Parenthesis checker&#10;Added Junit Testing" />
+    <MESSAGE value="Added Sorting Package" />
+    <MESSAGE value="Added Sorting Package&#10;Added various sorting classes to Sorting Package" />
+    <MESSAGE value="implemented BubbleSort,InsertionSort,MergeSort,SelectionSort&#10;and tests for them" />
+    <MESSAGE value="implemented QuickSort&#10;And test for it" />
+    <MESSAGE value="Visualizer(UI) for Insertion,Selection and BubbleSort Implemented.&#10;Merge Sort and QuickSort left for later implementation due to difficulties pausing the recursive nature.&#10;UI menu is left to be implemented" />
+    <MESSAGE value="Interface moved into correct directory.&#10;HeapSort was previously removed as it was for Tree structures and has a similar nature to selection sort" />
+    <MESSAGE value="Simple UI created to select number of values and a sort to visualize." />
+    <MESSAGE value="Jar file to run" />
+    <MESSAGE value="Project deadline passed, will re-visit later to polish and add more sorts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project deadline passed, will re-visit later to polish and add more sorts" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Algorithms$Algorithms_Sorting_in_Projects.ic" NAME="Algorithms.Sorting in Projects Coverage Results" MODIFIED="1572416695137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Algorithms.Sorting.*</FILTER>
+    </SUITE>
+  </component>
+</project>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<BorderPane xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bank.application.controllers.PaymentController">
+    <padding>
+        <Insets top="40" right="40" bottom="40" left="40"/>
+    </padding>
+    <center>
+        <GridPane fx:id="paymentGridPane">
+        </GridPane>
+    </center>
+</BorderPane>

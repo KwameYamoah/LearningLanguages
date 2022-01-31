@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<BorderPane xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bank.application.controllers.DashboardController">
+    <padding>
+        <Insets top="40" right="40" bottom="40" left="40"/>
+    </padding>
+    <center>
+        <GridPane alignment="CENTER" vgap="1" hgap="5">
+
+            <Label fx:id="username" text="Placeholder" GridPane.halignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="0"  GridPane.columnSpan="2" />
+            <Label text="Bank account" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+            <ChoiceBox fx:id="bankAccount" onAction="#changeBankAccount" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+            <Label text="Balance" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+            <Label fx:id="balance" text="£0.00" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+
+            <Button text="Make a Transfer" onAction="#changeToTransfer" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Button text="Payments" onAction="#changeToPayment" GridPane.columnIndex="0" GridPane.rowIndex="3"/>
+        </GridPane>
+   </center>
+</BorderPane>
